@@ -3,7 +3,6 @@
 	<Name> LEVEL 1 </Name>
 	<Load>
 		<File ID = "UI"    location="src/assets/game/ui/UI_Action_Elements.swf"/>
-
 	</Load>
 	<Player>
 		<Start x="5" y="5" />
