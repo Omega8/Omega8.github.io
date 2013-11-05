@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LevelDetail>
+	<Name> LEVEL 1 </Name>
+	<Load>
+		<File ID="UI"     location="assets/ui/UI_Action_Elements.swf"/>
+		<File ID="UI"     location="assets/ui/UI_Option_Elements.swf"/>
+		<File ID="Player" location="assets/characters/character_main_basic_001.swf"/>
+		<File ID="Level"  location="assets/level/map_forest_001.swf"/>
+	</Load>
+	<Layers>
+		<Layer number="4" aslinkage="map_forest_bbg_001" x="-35" y="20" speed=".125"/>
+		<Layer number="3" aslinkage="map_forest_bg_001"  x="-35" y="20" speed=".25"/>
+		<Layer number="2" aslinkage="map_forest_mg_001"  x="-35" y="20" speed=".5"/>
+		<Layer number="1" aslinkage="map_forest_fg_001"  x="-35" y="20" speed="1"/>
+	</Layers>
+	<Player>
+		<Name>BasicPlayer</Name>
+		<Start x="5" y="20" />
+		<Health></Health>
+	</Player>
+	<Enemies>
+		<Enemy name="Mosters" x ="6" y="7" />
+		<Enemy name="" x="" y=""/>
+	</Enemies>
+	<Objects>
+		<Object aslinkage="" x="" y=""/>
+		<Object aslinkage="" x="" y=""/>
+		<Object aslinkage="" x="" y=""/>
+	</Objects>
+</LevelDetail>

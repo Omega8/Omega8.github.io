@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuFiles>
+	<Menus>
+		<Menu file="assets/ui/UI_Action_Elements.swf"/>
+		<Main selection="Play" size="20" play = "1" stop = "5"/>		
+		<Main Selection="Options" size="14" play= "6" stop = "10"/>
+	</Menus>
+	<Buttons>
+		<Button name="Basic" type = "Over" play="1" stop="5"/>
+		<Button name="Basic" type = "Selection" play="6" stop="10"/>
+		<Button name="Basic" type = "None" play="1" stop="5"/>
+	</Buttons>
+	<Levels>
+		<Level number="1" name="Level 1" file="none"/>
+		<Level number="2" name="Level 2" file="none"/>
+		<Level number="3" name="Level 3" file="none"/>
+		<Level number="4" name="Level 4" file="none"/>
+	</Levels>
+	<Sounds>
+		<Sound file = "" Name=""/>
+	</Sounds>
+</MenuFiles>
